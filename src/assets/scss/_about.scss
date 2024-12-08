@@ -44,9 +44,23 @@
     }
 
     .item {
+      position: relative;
       font-size: 17px;
       padding: 5px;
       color: var(--text-color);
+
+      &::before {
+        position: absolute;
+        box-sizing: border-box;
+        content: "";
+        width: 15px;
+        height: 15px;
+        top: 5px;
+        left: -16px;
+        margin-top: 3px;
+        border-radius: 50px;
+        background-color: var(--first-color);
+      }
     }
   }
 }
