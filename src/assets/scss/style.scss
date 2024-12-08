@@ -1,4 +1,5 @@
 @import "./nav";
+
 :root {
   --body-color: rgb(250, 250, 250);
   --logo-color: rgb(218, 70, 102);
@@ -20,6 +21,7 @@ body {
   padding-inline: 10vw;
 
   .home-box {
+    padding-block: 6em;
     height: 100vh;
     min-height: 700px;
   }
