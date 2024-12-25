@@ -17,7 +17,7 @@
   --first-color-hover: rgb(40, 91, 212);
   --first-shadow-color: rgba(0, 0, 0, 0.1);
 
-  --second-color: rgb(170, 142, 18);
+  --second-color: rgb(0, 201, 255);
   --third-color: rgb(40, 91, 212);
 }
 
@@ -37,6 +37,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 .wrapper {
@@ -81,4 +82,8 @@ i {
   border-radius: 50%;
   box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.25);
   cursor: pointer;
+
+  &:hover {
+    color: var(--first-color);
+  }
 }
